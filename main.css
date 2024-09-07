@@ -273,7 +273,7 @@ a {
 	.mainLogo { width: 100%; justify-content: left; }
 	.mainLogo img { max-height: 85px; }
 	.hamburger { display: block; }
-	.faqTitle.long { line-height: 15px; }
+	.faqTitle.long { line-height: 15px; font-size: 20px; }
 }
 @media screen and (min-width: 1024px) {
 	.hamMenu { display: none !important; }
