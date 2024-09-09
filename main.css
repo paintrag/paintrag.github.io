@@ -161,6 +161,20 @@ a {
 	margin-bottom: 20px;
 }
 
+.aboutPhoto {
+	width: 400px;
+	display: block;
+	margin: auto;
+}
+.aboutBottomInfo {
+	margin-top: 30px;
+	font-size: 24px;
+	text-align: center;
+	border-radius: 10px;
+	background: #C8ECC8;
+	padding: 10px;
+}
+
 
 .faqWrapper {
 	margin-top: 25px;
@@ -271,7 +285,7 @@ a {
 	.navBar { display: none; }
 	.column:has(.bookButton) { display: none; }
 	.mainLogo { width: 100%; justify-content: left; }
-	.mainLogo img { max-height: 85px; }
+	.mainLogo img { max-height: 85px; margin-left: 50px; }
 	.hamburger { display: block; }
 	.faqTitle.long { line-height: 15px; font-size: 20px; }
 }
